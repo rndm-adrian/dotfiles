@@ -31,3 +31,6 @@ colorscript -r
 # alias c='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 eval $(dircolors ~/.dir_colors)
+
+
+alias c='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'

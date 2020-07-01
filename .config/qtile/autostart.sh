@@ -1,5 +1,7 @@
-#! /bin/bash 
-picom &
+#!/bin/sh
+
+compton &
+
 nitrogen --restore &
+
 alacritty &
-xautolock slock &
