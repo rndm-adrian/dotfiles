@@ -2,9 +2,9 @@
 
 Commands to Install my dotfiles:
 ```
-git clone https://github.com/rndm-adrian/dotfiles ~/dotfiles
-cd dotfiles
-./setup.sh
+wget https://raw.githubusercontent.com/rndm-adrian/dotfiles/master/README.md -O ~/dotfile-setup.sh
+chmod 775 ~/dotfile-setup.sh
+~/dotfile-setup.sh
 ```
 Your old dotfiles are moved in a directory called 
 `
