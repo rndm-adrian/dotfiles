@@ -1,5 +1,9 @@
 # dotfiles
 
+# Screenshot
+
+![Screenshot](./screenshot.png)
+
 Commands to Install my dotfiles:
 ```
 wget https://raw.githubusercontent.com/rndm-adrian/dotfiles/master/README.md -O ~/dotfile-setup.sh
