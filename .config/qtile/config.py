@@ -87,6 +87,13 @@ keys = [
              desc='Shrink window (MonadTall), decrease number in master pane (Tile)'
              ),
 
+         Key(
+             [mod], "t",
+             lazy.window.toggle_floating(),
+             desc='toggle floating'
+             ),
+
+    Key([mod, "shift"], "s", lazy.spawn("scrot")),
 ]
 
 # groups = [Group(i) for i in "
@@ -138,13 +145,13 @@ for i, (name, kwargs) in enumerate(group_names, 1):
 
 layout_theme = {"border_width": 2,
                 "margin": 6,
-                "border_focus": "a3be8c",
+                "border_focus": "b48ead",
                 "border_normal": "1D2330"
                 }
 
 layouts = [
     # layout.Max(),
-    layout.Stack(num_stacks=2),
+    layout.Stack(num_stacks=2, **layout_theme),
     # Try more layouts by unleashing below layouts.
     # layout.Bsp(),
     # layout.Columns(),
