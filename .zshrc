@@ -34,3 +34,4 @@ eval $(dircolors ~/.dir_colors)
 
 
 alias c='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias vim="/bin/nvim"
