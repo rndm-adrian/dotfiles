@@ -6,7 +6,7 @@
 
 Commands to Install my dotfiles:
 ```
-wget https://raw.githubusercontent.com/rndm-adrian/dotfiles/master/README.md -O ~/dotfile-setup.sh
+wget https://raw.githubusercontent.com/rndm-adrian/dotfiles/master/setup.md -O ~/dotfile-setup.sh
 chmod 775 ~/dotfile-setup.sh
 ~/dotfile-setup.sh
 ```
