@@ -1,5 +1,7 @@
 #!/bin/sh
 
+slock &
+
 compton &
 
 nitrogen --restore &
